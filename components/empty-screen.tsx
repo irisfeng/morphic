@@ -3,12 +3,12 @@ import { ArrowRight } from 'lucide-react'
 
 const exampleMessages = [
   {
-    heading: '英伟达增长势头为何如此迅猛？',
-    message: '英伟达增长势头为何如此迅猛？'
+    heading: '勒沃库森为什么叫药厂？',
+    message: '勒沃库森为什么叫药厂？'
   },
   {
-    heading: '秦朗丢寒假作业是摆拍吗？',
-    message: '秦朗丢寒假作业是摆拍吗？'
+    heading: '魔兽世界国服回归？',
+    message: '魔兽世界国服回归？'
   },
   {
     heading: '电动汽车Top10',

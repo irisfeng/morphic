@@ -168,11 +168,11 @@ export const Copilot: React.FC<CopilotProps> = ({ inquiry }: CopilotProps) => {
               disabled={pending}
             >
               <FastForward size={16} className="mr-1" />
-              Skip
+              跳过
             </Button>
             <Button type="submit" disabled={isButtonDisabled || pending}>
               <ArrowRight size={16} className="mr-1" />
-              Send
+              发送
             </Button>
           </div>
         </form>
