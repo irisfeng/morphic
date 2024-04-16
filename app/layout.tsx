@@ -12,8 +12,8 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = 'AI智能搜索'
-const description = '一个完全开源的AI搜索引擎，深受Morphic启发'
+const title = 'AI智能搜索 深受Morphic启发'
+const description = '一个完全开源的AI搜索引擎'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://sou.kgland.info'),
