@@ -12,24 +12,23 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = 'Morphic'
-const description =
-  'A fully open-source AI-powered answer engine with a generative UI.'
+const title = 'AI智能搜索'
+const description = '一个完全开源的AI搜索引擎，深受Morphic启发'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://morphic.sh'),
+  metadataBase: new URL('https://sou.kgland.info'),
   title,
   description,
   openGraph: {
     title,
     description
-  },
-  twitter: {
-    title,
-    description,
-    card: 'summary_large_image',
-    creator: '@miiura'
   }
+  // twitter: {
+  //   title,
+  //   description,
+  //   card: 'summary_large_image',
+  //   creator: '@miiura'
+  // }
 }
 
 export const viewport: Viewport = {
@@ -55,7 +54,7 @@ export default function RootLayout({
         >
           <Header />
           <AI>{children}</AI>
-          <Footer />
+          {/* <Footer /> */}
         </ThemeProvider>
       </body>
     </html>

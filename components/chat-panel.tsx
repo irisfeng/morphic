@@ -74,7 +74,7 @@ export function ChatPanel() {
           onClick={() => handleClear()}
         >
           <span className="text-sm mr-2 group-hover:block hidden animate-in fade-in duration-300">
-            New
+            新问题
           </span>
           <Plus size={18} className="group-hover:rotate-90 transition-all" />
         </Button>
@@ -96,7 +96,7 @@ export function ChatPanel() {
             ref={inputRef}
             type="text"
             name="input"
-            placeholder="Ask a question..."
+            placeholder="请提问..."
             value={input}
             className="pl-4 pr-10 h-12 rounded-full bg-muted"
             onChange={e => {
