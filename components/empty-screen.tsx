@@ -11,8 +11,8 @@ const exampleMessages = [
     message: '魔兽世界国服回归？'
   },
   {
-    heading: '电动汽车Top10',
-    message: '电动汽车Top10'
+    heading: '自动驾驶发展到什么程度了？',
+    message: '自动驾驶发展到什么程度了？'
   },
   {
     heading: 'ollama是什么？',
